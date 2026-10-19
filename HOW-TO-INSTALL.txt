@@ -1,0 +1,27 @@
+LangSwap - type Hebrew or English without switching the keyboard
+
+INSTALL
+1. Drag LangSwap.app into your Applications folder.
+2. Open Terminal and paste this line, then press Enter:
+   xattr -dr com.apple.quarantine /Applications/LangSwap.app
+   (The app is free and not from the App Store, so macOS blocks it the first time.
+    Other way: try to open it, then System Settings > Privacy & Security > "Open Anyway".)
+3. Open LangSwap. You will see "אA" in the menu bar.
+4. Allow it in System Settings > Privacy & Security > Accessibility (turn LangSwap ON).
+   The warning sign next to "אA" goes away after a few seconds.
+5. Click "אA" and turn on "Start at login".
+
+NEEDS
+- Both keyboards: Hebrew + ABC (or U.S.). System Settings > Keyboard > Input Sources.
+- macOS 13 or newer. Apple Silicon and Intel.
+
+USE
+- Just type. Words typed in the wrong keyboard are rewritten in the right language,
+  and the keyboard switches. Words before them stay as they are.
+- Typos are fixed when you finish a word. Words with capitals (names) are never touched.
+- Cmd+Z right after a fix = undo (and that word is never "fixed" again).
+- Double-tap Shift = convert the last words by hand, or convert selected text.
+- When you click into a text field, a small EN / עב badge shows the current keyboard.
+- "אA 🔒" = paused: another app is protecting a password field.
+
+Everything runs on your Mac. Nothing is sent anywhere.
